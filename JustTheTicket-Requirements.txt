@@ -42,7 +42,7 @@ Rationale: So that it is possible to identify if there are common reasons or cau
 Originator: Thomas
 
 REQ-ID: MG1
-Description: The product shall check a returned ticket against that customer’s ticket purchases
+Description: The product shall check a returned ticket against that customerâ€™s ticket purchases
 Type: Functional Requirement
 Rationale: To verify that the customer has previously purchased the ticket
 Originator: Thomas Shelby - Business Development
@@ -57,13 +57,13 @@ REQ-ID: RJE1
 Description: The product shall accept the returned ticket(s) selected by the customer.
 Type: Functional Requirement
 Rationale: The returned ticket(s) are required to enable the appropriate tickets within the real time inventory to be identified and made available for re-sale. 
-Originator: Thomas Shelby – Business Development Manager 
+Originator: Thomas Shelby â€“ Business Development Manager 
 
 REQ-ID: RJE2
 Description: The product shall accept the reason the customer wants to return ticket(s).
 Type: Functional Requirement
 Rationale: The reason ticket(s) are returned is required to enable the identification of any trends in ticket returns and assist with fraud prevention. 
-Originator: Polly Gray – Domestic Ticket Sales Manager 
+Originator: Polly Gray â€“ Domestic Ticket Sales Manager 
 
 REQ-ID: WD1
 Description: The product shall refund customers using original payment method.
@@ -142,3 +142,17 @@ Description: The product shall be able to find a ticket either by UID or custome
 Type: Functional requirement
 Rationale: To enable specific tickets to be refunded.
 Originator: Thomas
+
+REQ-ID: RC1
+Description: The product shall allow the customer to select the ticket(s) they want to return
+Type: Functional Requirement
+Rationale: To verify which ticket(s) are to be unallocated.
+Originator: Thomas Shelby (Business development)
+Comments: [Ryan Cooper] Added as part of TMA02 Question 4b
+
+REQ-ID: RC2
+Description: The product shall acquire a reason for the ticket return
+Type: Functional Requirement
+Rationale: To enable Polly and Thomas to review possible patterns and fraud before reallocating the tickets.
+Originator: Polly Gray (Domestic ticket sales)
+Comments: [Ryan Cooper] Added as part of TMA02 Question 4b
